@@ -1,0 +1,9 @@
+language: python
+python:
+  - "3.11"
+
+install:
+  - pip install pyTelegramBotAPI
+
+script:
+  - python3 p.py
